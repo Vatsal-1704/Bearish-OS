@@ -1,0 +1,52 @@
+.selectView {
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+}
+
+.selectTab {
+    cursor: pointer;
+    opacity: 0.5;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: absolute;
+    width: 133px;
+    align-items: center;
+    height: 120px;
+    z-index: 10;
+    margin-top: 33px;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.priorityItem {
+    justify-content: space-between;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.selectName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.colorCodeBox {
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E9EDF2;
+}
+
+.colorCodePicker{
+    position: absolute;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #E9EDF2;
+    padding: 5px;
+    gap: 10px;
+}

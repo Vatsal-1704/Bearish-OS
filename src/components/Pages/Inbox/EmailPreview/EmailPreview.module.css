@@ -1,0 +1,42 @@
+.emailPreviewMain {
+    width: 300px;
+    height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+}
+
+.userIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E9EDF2;
+}
+
+.senderName {
+    width: 225px;
+    height: 30px;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 600;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.subjectLine {
+    height: 30px;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-weight: 600;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.emailDescription {
+    height: 475px;
+    border: 1px solid #E9EDF2;
+    border-radius: 5px;
+}

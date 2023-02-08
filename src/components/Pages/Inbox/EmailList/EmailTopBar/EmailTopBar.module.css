@@ -1,0 +1,14 @@
+.emailTopBarMain {
+    width: 950px;
+    height: 50px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    flex-direction: row;
+}
+
+.emailTop {
+    width: 100%;
+    padding: 0 15px 0 5px;
+    flex-direction: row;
+    justify-content: space-between;
+}

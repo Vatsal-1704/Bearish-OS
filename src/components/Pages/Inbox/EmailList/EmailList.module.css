@@ -1,0 +1,55 @@
+.emailItem {
+    width: 950px;
+    height: 40px;
+    background: #E9EDF2;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contactName {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    width: 95px;
+    font-weight: 600;
+    margin-left: 16px;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.subject {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    margin-left: 75px;
+    width: 110px;
+    font-weight: 600;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.emailDescription {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    margin-left: 75px;
+    width: 165px;
+    font-weight: 600;
+    opacity: 0.5;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.receivedTime {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    height: 20px;
+    margin-left: 244px;
+    width: 100px;
+    font-weight: 600;
+    opacity: 0.5;
+    overflow: hidden;
+    font-size: 15px;
+}
